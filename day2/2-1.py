@@ -32,7 +32,7 @@ def is_safe(array):
 def main():
     safe = 0
 
-    # Read input values and save them in 2 lists
+    # Read input values
     with open('input.txt', 'r') as file:
         for line in file:
             row = line.rstrip()
