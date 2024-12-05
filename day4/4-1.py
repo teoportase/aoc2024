@@ -120,9 +120,6 @@ def count_XMAS(matrix):
 
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
-            # Check if element is X
-            # Check if any surrounding elements are M
-            # Check if the next elements in that direction are A then S
 
             if (matrix[i][j] == word[0]):
                 for direction in range(1, 9):
